@@ -96,7 +96,7 @@
                 position: absolute;
                 bottom: 15px;
                 left: 20px;
-                background: url(/WebGL_globe/ce.png);
+                background: url(/ce.png);
             }
 
 
@@ -134,10 +134,10 @@
 
 
 
-        <script type="text/javascript" src="/WebGL_globe/third-party/Detector.js"></script>
-        <script type="text/javascript" src="/WebGL_globe/third-party/three.min.js"></script>
-        <script type="text/javascript" src="/WebGL_globe/third-party/Tween.js"></script>
-        <script type="text/javascript" src="/WebGL_globe/globe.js"></script>
+        <script type="text/javascript" src="/Detector.js"></script>
+        <script type="text/javascript" src="/three.min.js"></script>
+        <script type="text/javascript" src="/Tween.js"></script>
+        <script type="text/javascript" src="/globe.js"></script>
         <script type="text/javascript">
 
             if (!Detector.webgl) {
@@ -177,7 +177,7 @@
 
 
                 xhr = new XMLHttpRequest();
-                xhr.open('GET', '/WebGL_globe/countmag.json', true);
+                xhr.open('GET', '/countmag.json', true);
                 xhr.onreadystatechange = function (e) {
                     if (xhr.readyState === 4) {
                         if (xhr.status === 200) {
