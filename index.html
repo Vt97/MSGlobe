@@ -96,7 +96,7 @@
                 position: absolute;
                 bottom: 15px;
                 left: 20px;
-                background: url(ce.png);
+                background: url(/MSGlobe/ce.png);
             }
 
 
@@ -134,10 +134,10 @@
 
 
 
-        <script type="text/javascript" src="Detector.js"></script>
-        <script type="text/javascript" src="three.min.js"></script>
-        <script type="text/javascript" src="Tween.js"></script>
-        <script type="text/javascript" src="globe.js"></script>
+        <script type="text/javascript" src="/MSGlobe/Detector.js"></script>
+        <script type="text/javascript" src="/MSGlobe/three.min.js"></script>
+        <script type="text/javascript" src="/MSGlobe/Tween.js"></script>
+        <script type="text/javascript" src="/MSGlobe/globe.js"></script>
         <script type="text/javascript">
 
             if (!Detector.webgl) {
@@ -177,7 +177,7 @@
 
 
                 xhr = new XMLHttpRequest();
-                xhr.open('GET', 'countmag.json', true);
+                xhr.open('GET', '/MSGlobe/countmag.json', true);
                 xhr.onreadystatechange = function (e) {
                     if (xhr.readyState === 4) {
                         if (xhr.status === 200) {
